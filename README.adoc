@@ -12,8 +12,7 @@ More Swift/T documentation is here:
 == Installation locations
 
 2018-02-27::
-/projects/Swift-T/public/sfw/swift-t/2018-02-27
-+
+/projects/Swift-T/public/sfw/swift-t/2018-02-27 +
 This installation has Python and R.
 
 == Typical use pattern
