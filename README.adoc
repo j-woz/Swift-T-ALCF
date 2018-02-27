@@ -1,9 +1,32 @@
 
 = Swift-T-ALCF
 
+== Swift/T documentation
+
+More Swift/T documentation is here:
+
+* http://swift-lang.github.io/swift-t/guide.html[Swift/T Guide]
+* http://swift-lang.github.io/swift-t/sites.html[Swift/T Sites Guide]
+  (already has some ALCF notes)
+
 == Installation locations
 
+2018-02-27::
 /projects/Swift-T/public/sfw/swift-t/2018-02-27
++
+This installation has Python and R.
+
+== Typical use pattern
+
+. Edit some workflow.swift.
+. Then:
++
+----
+$ source /projects/Swift-T/public/sfw/swift-t/2018-02-27/setup.sh
+$ swift-t -m theta ... workflow.swift
+----
++
+where +...+ are other Swift/T options.
 
 == Tests
 

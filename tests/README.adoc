@@ -1,14 +1,6 @@
 
 = Swift/T ALCF Tests
 
-== Swift/T documentation
-
-More Swift/T documentation is here:
-
-* http://swift-lang.github.io/swift-t/guide.html[Swift/T Guide]
-* http://swift-lang.github.io/swift-t/sites.html[Swift/T Sites Guide]
-  (already has some ALCF notes)
-
 == Setup
 
 ----
@@ -16,6 +8,12 @@ More Swift/T documentation is here:
 $ source setup.sh
 # Example user settings
 $ export PROJECT=ecp-testbed-01 QUEUE=debug-cache-quad
+----
+
+* A copy of setup.sh was placed here:
++
+----
+/projects/Swift-T/public/sfw/swift-t/2018-02-27/setup.sh
 ----
 
 == Hello World
