@@ -3,20 +3,38 @@
 
 == Setup
 
+* Copies of setup-\*.sh were placed here:
++
+----
+/projects/Swift-T/public/sfw/swift-t/2018-02-27
+----
+
+=== Login node
+
 ----
 # Set the Swift/T PATHs
-$ source setup.sh
+$ source setup-login.sh
+----
+
+=== Compute nodes
+
+----
+# Set the Swift/T PATHs
+$ source setup-compute.sh
 # Example user settings
 $ export PROJECT=ecp-testbed-01 QUEUE=debug-cache-quad
 ----
 
-* A copy of setup.sh was placed here:
-+
+== Hello World
+
+=== Login node
+
 ----
-/projects/Swift-T/public/sfw/swift-t/2018-02-27/setup.sh
+$ swift-t hello.swift
+Hello World
 ----
 
-== Hello World
+=== Compute node
 
 ----
 $ swift-t -m theta hello.swift
