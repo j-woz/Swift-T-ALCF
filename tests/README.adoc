@@ -1,0 +1,47 @@
+
+= Swift/T ALCF Tests
+
+== Swift/T documentation
+
+More Swift/T documentation is here:
+
+* http://swift-lang.github.io/swift-t/guide.html[Swift/T Guide]
+* http://swift-lang.github.io/swift-t/sites.html[Swift/T Sites Guide]
+  (already has some ALCF notes)
+
+== Setup
+
+----
+# Set the Swift/T PATHs
+$ source setup.sh
+# Example user settings
+$ export PROJECT=ecp-testbed-01 QUEUE=debug-cache-quad
+----
+
+== Hello World
+
+----
+$ swift-t -m theta hello.swift
+TURBINE-THETA SCRIPT
+NODES=2
+PROCS=2
+PPN=1
+TURBINE_OUTPUT=/home/wozniak/turbine-output/2018/02/27/13/13/04
+wrote: /home/wozniak/turbine-output/2018/02/27/13/13/04/turbine-theta.sh
+running qsub ...
+Job routed to queue "debug-cache-quad".
+Memory mode set to cache quad for queue debug-cache-quad
+JOB_ID=195709
+----
+
+* A default job size of 2 nodes was selected
+* The job PWD and output are in TURBINE_OUTPUT
+* The generated and submitted Cobalt script is visible in turbine-theta.sh
+
+Wait for the job to complete.  Then:
+
+----
+$ TURBINE_OUTPUT=/home/wozniak/turbine-output/2018/02/27/13/13/04
+$ grep Hello $TURBINE_OUTPUT/output.txt
+Hello World
+----
