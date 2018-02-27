@@ -15,4 +15,4 @@ PATH=$ROOT/turbine/bin:$PATH
 
 == Tests
 
-See here
+https://github.com/jmjwozniak/Swift-T-ALCF/tree/master/tests[See here]
