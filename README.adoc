@@ -12,8 +12,12 @@ More Swift/T documentation is here:
 == Installation locations
 
 2018-02-27::
-/projects/Swift-T/public/sfw/swift-t/2018-02-27 +
-This installation has Python and R.
++
+* /projects/Swift-T/public/sfw/swift-t/login/2018-02-27 +
+  This installation has Python.
++
+* /projects/Swift-T/public/sfw/swift-t/compute/2018-02-27 +
+  This installation has Python.
 
 == Typical use pattern
 
@@ -21,7 +25,7 @@ This installation has Python and R.
 . Then:
 +
 ----
-$ source /projects/Swift-T/public/sfw/swift-t/2018-02-27/setup.sh
+$ source /projects/Swift-T/public/sfw/swift-t/2018-02-27/setup-compute.sh
 $ swift-t -m theta ... workflow.swift
 ----
 +
