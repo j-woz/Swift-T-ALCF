@@ -5,14 +5,6 @@
 
 /projects/Swift-T/public/sfw/swift-t/2018-02-27
 
-== Set up
-
-----
-ROOT=/projects/Swift-T/public/sfw/swift-t/2018-02-27
-PATH=$ROOT/stc/bin:$PATH
-PATH=$ROOT/turbine/bin:$PATH
-----
-
 == Tests
 
 https://github.com/jmjwozniak/Swift-T-ALCF/tree/master/tests[See here]
