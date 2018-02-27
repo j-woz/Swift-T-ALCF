@@ -3,7 +3,7 @@
 
 == Setup
 
-* Copies of setup-\*.sh were placed here:
+* Copies of setup-*.sh were placed here:
 +
 ----
 /projects/Swift-T/public/sfw/swift-t/2018-02-27
